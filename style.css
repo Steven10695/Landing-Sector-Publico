@@ -856,7 +856,7 @@ body.boxed-v #wrapper {
 #header {
 	z-index: 2;
 	position: relative;
-	padding: 34px 0 70px;
+	padding: 34px 0 34px;
 }
 
 #header.sticky #nav {
@@ -1893,4 +1893,24 @@ body.boxed-v #wrapper {
              -o-transform: scaleY(1);
                 transform: scaleY(1);
     }
+}
+.bloque1{
+	border-radius: 10px;
+	border-bottom: 5px solid #089DCF !important;
+	border:1px solid #d1d1d1;
+	box-shadow: 10px 10px 25px #d1d1d1;
+	padding: 15px;
+}
+.bloque2{
+	border-radius: 10px;
+	border-bottom: 5px solid #8CD441 !important;
+	border:1px solid #d1d1d1;
+	box-shadow: 10px 10px 25px #d1d1d1;
+	padding: 15px;
+}
+.mt-4{
+	margin-top: 4% !important;
+}
+.pt-4{
+	padding-top: 4rem !important;
 }
