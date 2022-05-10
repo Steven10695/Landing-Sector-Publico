@@ -622,7 +622,9 @@ img.aligncenter {
 .dark-bg {
 	background-color: #1c1c1c;
 }
-
+.gray-bg {
+	background-color: #f5f5f5;
+}
 .bg-img-full {
 	background-repeat: no-repeat;
 	background-position: center;
