@@ -641,7 +641,7 @@ img.aligncenter {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	opacity: .75;
+	opacity: .45;
 	position: absolute;
 	pointer-events: none;
 	background-color: #000;
@@ -743,7 +743,9 @@ img.aligncenter {
 	transition: all ease .3s;
 	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+.btn-success{
+	padding: 10px 33px;
+}
 .btn-default:focus,
 .btn-default:active,
 .btn-default:hover {
@@ -818,9 +820,7 @@ body.boxed-v #wrapper {
 	3. main headinig styles / .main-heading
 -------------------------------------------------------------------*/
 
-.main-heading {
-	margin-bottom: 76px;
-}
+
 
 .main-heading .heading {
 	color: #333;
@@ -1383,18 +1383,18 @@ body.boxed-v #wrapper {
 	height: 230px;
 	overflow: hidden;
 	position: relative;
-	background: #212121;
+	background: #212121b4;
 }
 
 .services-section .services-box li:last-child,
 .services-section .services-box li:first-child {
-	background: rgba(33, 33, 33, .9);
+	background: rgba(33, 33, 33, .1);
 }
 
 .services-section .services-box li:hover .over {
-	-webkit-transform: translateY(-67%);
-	-ms-transform: translateY(-67%);
-	transform: translateY(-67%);
+	-webkit-transform: translateY(-57%);
+	-ms-transform: translateY(-57%);
+	transform: translateY(-57%);
 }
 
 .services-section .services-box li:hover .icomoon {
